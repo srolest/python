@@ -5,12 +5,12 @@
 renta = float(input("Introduce tu renta anual: "))
 
 if renta < 10000:
-    print("Impositivo del 5%")
+    print("Tu impositivo es 5%")
 elif 10000 <= renta < 20000:
-    print("Impositivo del 15%")
+    print("Tu impositivo es 15%")
 elif 20000 <= renta < 35000:
-    print("Impositivo del 20%")
+    print("Tu impositivo es 20%")
 elif 35000 <= renta < 60000:
-    print("Impositivo del 30%")
+    print("Tu impositivo es 30%")
 else:
-    print("Impositivo del 45%")
+    print("Tu impositivo es 45%")
