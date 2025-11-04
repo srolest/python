@@ -5,4 +5,8 @@
 #si tiene entre 4 y 18 años debe pagar 5€ y si es mayor de 18 años, 10€.
 edad = int(input("Introduce tu edad: "))
 if edad < 4:
-    print 
+    print ("Entrada gratuita")
+elif edad >=4 and edad<=18:
+    print ("Debe de pagar 5€")
+else:
+    print ("Debe pagar 10€")
