@@ -13,7 +13,7 @@ if eleccion == "si":
 else:
     print("Ingredientes no vegetarianos: Peperoni, Jamón y Salmón.")
 
-eleccion2 = input("Elige solo un ingrediente más: ")
+eleccion2 = input("Elige solo un ingrediente más: ").lower()
 if eleccion2 == "pimiento":
     print ("Pizza de mozarella,tomate y pimiento")
 if eleccion2 == "tofu":
